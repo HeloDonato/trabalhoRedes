@@ -1,4 +1,4 @@
-const io = require('socket.io')(httpServer, {
+const io = require('socket.io')(server, {
   cors: {
     origin: "https://mysterious-inlet-76541.herokuapp.com/'",
     methods: ["GET", "POST"]
